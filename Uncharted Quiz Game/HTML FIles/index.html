@@ -1,0 +1,126 @@
+
+<!--
+Game files include -
+    HomePg.html
+    style.css
+    script.js
+-->
+
+<!-- HTML code -->
+<html>
+    
+    <head>
+        
+        <title> How well do you know the Uncharted Series? Take this Quiz to find out! </title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+       
+        <meta name="description" content="This website displays a quiz about the Uncharted game series. Users can test there knowledge by taking the quiz.">
+        <meta name="keywords" content="uncharted,nathan drake,shayan,mufti,wizemufti,wize,quiz,game,nate,nathan,drake,thief,treasure,pirate">
+            
+        <meta name="author" content="Shayan Mufti">
+        
+        <!-- Tab image -->
+        <link rel="icon" href="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/u4-pic.jpg">
+
+        <!-- Get Bootstrap File from directory -->
+        <link rel="stylesheet" href="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/Uncharted Quiz Game/Bootstrap File/css/bootstrap.min.css" />
+
+         <!-- Get CSS File from directory (style page) -->
+         <link rel="stylesheet" href="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/Uncharted Quiz Game/CSS Files/style.css" />
+
+    </head>
+    
+    
+    <body>
+    
+<!--Begin Game Code here-->
+    
+    <!-- Loading screen-->
+    <div class="loader">
+        <img src="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/loader.gif" alt="Loading..." />
+    </div>
+
+<!--Container class for creating the question box-->
+    <div class="container fadeIn">
+            
+        <!-- Title -->
+        <div id="myTitle" class="intro"> Uncharted Quiz </div>
+        
+        
+        <!-- Username -->
+        <div id="myUsername" class="username">
+            <input type="text" name="username" placeholder="username" style="height:40px;width:300px" required="required" class="username" id="myUserInput">
+        </div>
+        
+        <!-- Final score message -->
+        <div id="myScore" class="score hide">
+            <p> <strong> Score </strong> </p>
+        </div>
+        
+        <br>
+        
+        <!--Question for creating the questions with the answer choices-->
+        <div id="question-container" class="hide">
+        
+            <div id="question" class="LeQuestions"> Question </div>
+            
+            <!--Answer for the question-->
+            <div id="answer-buttons" class="btn-grid">
+                
+                    <!--Buttons for each answer choice-->
+                    <button class="btn"> Answer 1 </button>
+                    <button class="btn"> Answer 2 </button>
+                    <button class="btn"> Answer 3 </button>
+                    <button class="btn"> Answer 4 </button>
+
+            </div>
+        
+        </div>
+        
+        
+        <!--Navigation class to start the quiz and go to the next question-->
+        <div class="controls">
+            
+            <button id="start-btn" class="start-btn btn"> Begin Quiz </button>
+            <button id="next-btn" class="next-btn btn hide"> Next Question </button>
+
+        </div>
+        
+        <br>
+        <br>
+        
+        <!-- Message for the user -->
+        <div id="myMessage" class="message">
+            How well do you know the Uncharted series? Think you are an expert? <br> Take this quiz to test your knowledge and find out!
+        </div>
+        
+    </div>
+    
+    <!-- Navigation to pages -->
+    <div class="navigation">
+        <a href="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/Uncharted Quiz Game/HTML FIles/index.html "> HOME </a>
+        <a href="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/Uncharted Quiz Game/HTML FIles/aboutUnchartedPg.html ">  ABOUT </a>
+    </div>
+    
+    <!-- Footer (trademark) -->
+    <footer>
+      <div class ="footer"> <hr> 2020 Shayan Mufti&trade; </hr> </div>
+    </footer>
+    
+    
+<!--End Game Code here-->
+
+<!--        <!-- Includes the JQuery Framework into our page -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"> </script>
+
+<!--        <!-- Includes the Bootstrap CSS into our page -->
+        <script src="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/Uncharted Quiz Game/Bootstrap File/js/bootstrap.min.js"> </script>
+        
+        <!-- Get JavaScript File from directory -->
+        <script src="/Users/PrinceMufti/Desktop/Uncharted Quiz Website/Uncharted Quiz Game/JavaScript Files/script.js"> </script>
+
+    </body>
+    
+</html>

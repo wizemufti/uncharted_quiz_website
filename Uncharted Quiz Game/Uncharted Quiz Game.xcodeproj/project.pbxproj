@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		47DF447C247C5E6700460AF7 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		47DF448024841E1800460AF7 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = "../../../../Downloads/bootstrap-4.5.0-dist/css"; sourceTree = "<group>"; };
+		47DF448124841E1800460AF7 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "../../../../Downloads/bootstrap-4.5.0-dist/js"; sourceTree = "<group>"; };
+		47DF44872485AAB900460AF7 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		47DF4489248AD00E00460AF7 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		47E70D212493129300DA11CD /* aboutUnchartedPg.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = aboutUnchartedPg.html; sourceTree = "<group>"; };
+		47E70D222493159700DA11CD /* script2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script2.js; sourceTree = "<group>"; };
+		47E70D232494417100DA11CD /* style2.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style2.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		47DF446F2478C36700460AF7 = {
+			isa = PBXGroup;
+			children = (
+				47DF447F24841DE900460AF7 /* Bootstrap File */,
+				47DF447B247C5D8100460AF7 /* CSS Files */,
+				47DF4479247C5CC200460AF7 /* HTML FIles */,
+				47DF4478247C5CA700460AF7 /* JavaScript Files */,
+			);
+			sourceTree = "<group>";
+		};
+		47DF4478247C5CA700460AF7 /* JavaScript Files */ = {
+			isa = PBXGroup;
+			children = (
+				47DF4489248AD00E00460AF7 /* script.js */,
+				47E70D222493159700DA11CD /* script2.js */,
+			);
+			path = "JavaScript Files";
+			sourceTree = "<group>";
+		};
+		47DF4479247C5CC200460AF7 /* HTML FIles */ = {
+			isa = PBXGroup;
+			children = (
+				47DF44872485AAB900460AF7 /* index.html */,
+				47E70D212493129300DA11CD /* aboutUnchartedPg.html */,
+			);
+			path = "HTML FIles";
+			sourceTree = "<group>";
+		};
+		47DF447B247C5D8100460AF7 /* CSS Files */ = {
+			isa = PBXGroup;
+			children = (
+				47DF447C247C5E6700460AF7 /* style.css */,
+				47E70D232494417100DA11CD /* style2.css */,
+			);
+			path = "CSS Files";
+			sourceTree = "<group>";
+		};
+		47DF447F24841DE900460AF7 /* Bootstrap File */ = {
+			isa = PBXGroup;
+			children = (
+				47DF448024841E1800460AF7 /* css */,
+				47DF448124841E1800460AF7 /* js */,
+			);
+			path = "Bootstrap File";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		47DF44702478C36700460AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = 47DF44732478C36700460AF7 /* Build configuration list for PBXProject "Uncharted Quiz Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47DF446F2478C36700460AF7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		47DF44742478C36700460AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		47DF44752478C36700460AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47DF44732478C36700460AF7 /* Build configuration list for PBXProject "Uncharted Quiz Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DF44742478C36700460AF7 /* Debug */,
+				47DF44752478C36700460AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47DF44702478C36700460AF7 /* Project object */;
+}

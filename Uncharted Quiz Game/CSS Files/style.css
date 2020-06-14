@@ -1,0 +1,269 @@
+
+
+/* CSS File */
+
+/*h1 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-size: 30px;*/
+/*}*/
+
+/* All Elements */
+/**, *::before, *::after {*/
+/*    */
+/*    box-sizing: border-box;*/
+/*    font-family: Luminari, Avenir, Helvetica;*/
+/*}*/
+
+
+/* Body Elements */
+body {
+    
+    padding: 0;             /* Elements spacing of buttons */
+    margin: 0;              /* Move elements close to eachother */
+
+    width: 100vw;           /* width of elements */
+    height: 100vh;          /* heigh of elements */
+    
+    /* Display everything in the middle of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    font-size: 23px;
+    font-family: Luminari, Avenir, Helvetica, Helvetica Neue, Roboto, Ubuntu, Cantarell, sans-serif;
+
+    background-image: url("/Users/PrinceMufti/Desktop/Uncharted Quiz Website/u4-pic.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Question box container settings */
+.container {
+    
+    width: 800px;                   /* Size of box */
+    height: 390px;
+    max-width: 80%;                 /* Max width box can be */
+    background-color: #2E5175;        /* Background color of the box */
+    border-radius: 5px;             /* Box border radius */
+    padding: 20px;                  /* Box spacing */
+    box-shadow: 0 0 20px 10px;       /* Box shadow with x, y, blur, length of shadow*/
+    box-sizing: border-box;
+    opacity: 0.9;                   /* make box see through slightly */
+}
+
+
+
+/* Title settings */
+.intro {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* username settings */
+.username {
+    font-size: 15px;
+    font-family: Luminari, Avenir, Helvetica, Helvetica Neue, Roboto, Ubuntu, Cantarell, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-color: #121212;
+    padding: 5px 8px;
+    outline: none;
+}
+
+/* username hover settings */
+.username:hover {
+    border-color: red;                  /* Color when hovering over the button */
+}
+
+/* message settings */
+.message {
+    font-size: 21px;
+    font-family: Luminari, Avenir, Helvetica, Helvetica Neue, Roboto, Ubuntu, Cantarell, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+/* score settings */
+.score {
+    font-size: 25px;
+    color: white;
+    font-family: Luminari, Avenir, Helvetica, Helvetica Neue, Roboto, Ubuntu, Cantarell, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Question settings */
+.LeQuestions {
+    color:white;
+}
+
+/* Home and about page settings */
+.navigation {
+    
+    position: absolute;
+    left: 0;
+    bottom: 100;
+    width: 100%;
+    font-family: Avenir, Helvetica, Helvetica Neue, Roboto, Ubuntu, Cantarell, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    word-spacing: 40px;
+    text-decoration: none;
+}
+
+/* Footer settings */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom:10;
+    width: 100%;
+    font-family: Avenir, Helvetica, Helvetica Neue, Roboto, Ubuntu, Cantarell, sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* navigation link settings */
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Answer choice button display */
+.btn-grid {
+    display: grid;                             /* Display in grid format*/
+    grid-template-columns: repeat(2, auto);    /* 2 columns of grid with auto width*/
+    gap: 10px;                                 /* Space out the elements */
+    margin: 20px 0;                            /* Move top and bottom buttons further away */
+}
+
+/* Settings for all buttons */
+.btn {
+    
+    background-color: #121212;          /* Button colors */
+    border-radius: 10px;                /* Change border of buttons */
+    padding: 5px 10px;                  /* Make buttons bigger */
+    color: white;                       /* Text color of buttons */
+    outline: none;                      /* remove outline when clicking button */
+    font-size: 20px;
+    font-family: Luminari, Avenir, Helvetica, Helvetica Neue, Roboto, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Button hover settings */
+.btn:hover {
+    
+    border-color: white;                  /* Color when hovering over the button */
+}
+
+/* Start & next button settings */
+.start-btn, .next-btn {
+    
+    font-size: 25px;                    /* font size of start & next button */
+    font-weight: bold;                  /* bold font */
+    padding: 10px 15px;                 /* button x text spacing */
+}
+
+
+/* Buttons control settings (start and next) */
+.controls {
+    
+    /* Center start and next buttons buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hidden button settings */
+.hide {
+    
+    display: none;                  /* Only display start button at the beginning */
+}
+
+/* fade in the page */
+/*.fadeIn {*/
+/*    animation: fadeInEffect 3s;*/
+/*}*/
+/**/
+/*@keyframes fadeInEffect {*/
+/*        from {*/
+/*            opacity: 0;*/
+/*        }*/
+/*        to {*/
+/*            opacity: 0.9;*/
+/*    }*/
+/*}*/
+
+
+/* loader settings */
+.loader {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loader > img {
+    width: 100px;
+}
+
+/* loader settings for hiding loader */
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+/* fade the loader out */
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* size for smaller screens */
+@media only screen and (max-width: 900px) {
+            
+    body {
+        font-size: 13px;
+    }
+    
+    .message {
+        font-size: 15px;
+        }
+    .intro {
+        font-size: 35px;
+    }
+    
+    .btn {
+        font-size: 15px;
+    }
+}
+
